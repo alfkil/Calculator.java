@@ -49,7 +49,7 @@ class Calculator {
                 }
                 operator = Operator.Expect;
             }
-            if(string.charAt(index) == '+')
+            else if(string.charAt(index) == '+')
                 operator = Operator.Plus;
             else if(string.charAt(index) == '-')
                 operator = Operator.Minus;
